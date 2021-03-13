@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-21T08:23:17.261Z",
+        "line": 3,
+        "name": "Check for login",
+        "description": "",
+        "id": "feature-of-login;check-for-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15600000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the website",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_launch_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter credentials",
+            "match": {
+              "location": "StepDefinition.LoginSteps.user_enter_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "land on the home page",
+            "match": {
+              "location": "StepDefinition.LoginSteps.land_on_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature of login",
+    "description": "",
+    "id": "feature-of-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
